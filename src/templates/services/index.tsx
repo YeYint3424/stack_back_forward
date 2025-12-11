@@ -19,7 +19,7 @@ export default function Services() {
               "Mobile Apps",
               "Cloud Solutions",
               "Consulting",
-            ].map((service, index) => (
+            ].map((service) => (
               <div key={service} className="bg-gray-50 p-4 rounded-lg border">
                 <h3 className="font-semibold text-gray-800">{service}</h3>
               </div>

@@ -18,7 +18,8 @@ export default function About() {
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
             <p className="text-yellow-700">
               <strong>Stack Behavior:</strong> When you navigate here from Home,
-              "Home" stays in the stack and "About" gets pushed on top.
+              &quot;Home&quot; stays in the stack and &quot;About&quot; gets
+              pushed on top.
             </p>
           </div>
 

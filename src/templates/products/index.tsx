@@ -1,9 +1,9 @@
 "use client";
 
-import { useNavigation } from "@/contexts/NavigationContext";
+// import { useNavigation } from "@/contexts/NavigationContext";
 
 export default function Products() {
-  const { navigateTo } = useNavigation();
+  // const { navigateTo } = useNavigation();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-100 py-12">
