@@ -13,17 +13,17 @@ export default function BrowserNavigation() {
     history,
     currentIndex,
     clearHistory,
-    navigateTo, // Make sure to destructure this
+    navigateTo,
   } = useNavigation();
 
   const [urlInput, setUrlInput] = useState("");
-  const [showStackDetails, setShowStackDetails] = useState(false);
+  const [showStackDetails, setShowStackDetails] = useState(true);
 
   const handleUrlSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (urlInput.trim()) {
       const path = urlInput.startsWith("/") ? urlInput : `/${urlInput}`;
-      navigateTo(path); // This should now work
+      navigateTo(path);
       setUrlInput("");
     }
   };
