@@ -14,7 +14,7 @@ export default function NavMenu() {
   const { navigateTo, history, currentIndex } = useNavigation();
 
   return (
-    <nav className="bg-gradient-to-r from-gray-800 to-gray-900 shadow-2xl">
+    <nav className="bg-gradient-to-r from-gray-800 to-gray-900 shadow-2xl absolute bottom-0 left-0 w-screen">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center py-4 gap-4">
           {/* Logo and Title */}

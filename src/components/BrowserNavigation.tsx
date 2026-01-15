@@ -34,7 +34,7 @@ export default function BrowserNavigation() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-900 to-gray-800 border-b border-gray-700 p-4 shadow-2xl">
+    <div className="bg-gradient-to-r from-gray-900 to-gray-800 border-b border-gray-700 p-4 shadow-2xl min-h-[90vh]">
       <div className="max-w-6xl mx-auto">
         {/* Main Navigation Bar */}
         <div className="flex items-center gap-4 mb-4">
