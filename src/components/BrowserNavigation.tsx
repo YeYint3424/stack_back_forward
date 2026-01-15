@@ -263,7 +263,7 @@ export default function BrowserNavigation() {
                           </span>
                         )}
                         {index < currentIndex && (
-                          <span className="text-gray-500">Visited</span>
+                          <span className="text-gray-500">Back History</span>
                         )}
                         {index > currentIndex && (
                           <span className="text-gray-400">Forward History</span>
