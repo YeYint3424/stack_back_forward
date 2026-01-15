@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavigationProvider>
-          <div className="min-h-screen bg-gray-50">
+          <div className="min-h-screen bg-gray-900">
             <BrowserNavigation />
             <NavMenu />
           </div>
