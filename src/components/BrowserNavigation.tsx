@@ -283,9 +283,9 @@ export default function BrowserNavigation() {
             <div className="grid grid-cols-3 gap-4 mt-4 pt-4 border-t border-gray-700">
               <div className="text-center">
                 <div className="text-2xl font-bold text-blue-400">
-                  {history.length}
+                  {history.length - (history.length - currentIndex)}
                 </div>
-                <div className="text-xs text-gray-400">Total Pages</div>
+                <div className="text-xs text-gray-400">Back Stack</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-green-400">
@@ -297,7 +297,7 @@ export default function BrowserNavigation() {
                 <div className="text-2xl font-bold text-yellow-400">
                   {history.length - currentIndex - 1}
                 </div>
-                <div className="text-xs text-gray-400">Forward Available</div>
+                <div className="text-xs text-gray-400">Forward Stack</div>
               </div>
             </div>
           </div>
