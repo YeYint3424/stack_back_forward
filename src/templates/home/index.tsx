@@ -1,13 +1,9 @@
 "use client";
 
-import { useNavigation } from "@/contexts/NavigationContext";
-
 export default function Home() {
-  const { navigateTo } = useNavigation();
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
-      <div className="max-w-4xl mx-auto px-4">
+      {/* <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
             Welcome Home
@@ -63,7 +59,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
